@@ -1,0 +1,66 @@
+/* Halloween Theme */
+:root {
+    --primary-bg-color: #000; /* Black */
+    --secondary-bg-color: #ff6600; /* Pumpkin Orange */
+    --text-color: #ffcc00; /* Gold */
+    --halloween-color: #da8c44; /* Halloween Red */
+  }
+  
+  .title {
+    color: var(--text-color);
+  }
+  
+  body {
+    background-image: url('/halloween.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
+    background-size: cover; /* This property scales the background image to cover the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  
+  h2 {
+    color: var(--text-color);
+  }
+  
+  .fixed-nav-bar-right .navbar-link {
+    color: var(--text-color);
+  }
+  
+  #INImg {
+    content: url("/main_halloween.png");
+  }
+  
+  .searchbar {
+    background-color: transparent;
+    border-color: var(--halloween-color);
+    border-radius: 2vw;
+    border: solid 0.5vw;
+    color: var(--halloween-color);
+  }
+  
+  p {
+    color: var(--text-color);
+  }
+  
+  .column {
+    background-color: rgba(255, 0, 0, 0.5); /* Halloween Red with transparency */
+  }
+  
+  input {
+    background-color: rgba(255, 0, 0, 0.5); /* Halloween Red with transparency */
+  }
+  
+  select {
+    background-color: rgba(139, 0, 0, 0.5); /* Halloween Red with transparency */
+  }
+  
+  .settings-card {
+    background-color: rgba(139, 0, 0, 0.5); /* Halloween Red with transparency */
+  }
+  
+  .key-button {
+    background-color: rgba(139, 0, 0, 0.5); /* Halloween Red with transparency */
+  }
+  
+  .key-form {
+    background-color: rgba(139, 0, 0, 0.5); /* Halloween Red with transparency */
+  }
+  
